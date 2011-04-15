@@ -15,7 +15,7 @@ This demo is:
 Explanation
 -----------
 
-In order to work, it relies on:
+In order to work, it currently relies on:
 
 * https://svn.plone.org/svn/collective/collective.transmogrifier/branches/aclark-mr-migrator-compat
 * https://svn.plone.org/svn/collective/transmogrify.filesystem/branches/aclark-mr-migrator-compat
@@ -31,3 +31,26 @@ These are, respectively:
 
 * A fork of t.ploneremote with the collective.transmogrifier entry point
   specified (and some CMFCore dependencies remove).
+
+Installation
+------------
+
+You can try out this demo::
+
+    $ git clone git@github.com:aclark4life/mr_migrator_demo.git
+    $ cd mr_migrator_demo
+    $ python bootstrap.py
+    $ bin/buildout
+
+Elsewhere, setup a Plone site listenining on localhost:8080 with a Plone site
+object called "Plone" and then:
+
+    $ bin/mr.migrator
+
+You should end up with content in Plone that looks like this:
+
+.. image:: content.png
+   :height: 100
+   :width: 200
+   :scale: 50
+   :alt: Content in Plone
