@@ -15,13 +15,13 @@ This demo is:
 Explanation
 -----------
 
-It relies on:
+In order to work, it relies on:
 
 - https://svn.plone.org/svn/collective/collective.transmogrifier/branches/aclark-mr-migrator-compat
 - https://svn.plone.org/svn/collective/transmogrify.filesystem/branches/aclark-mr-migrator-compat
 - git@github.com:aclark4life/transmogrify.ploneremote.git 
 
-to work. These are, respectively:
+These are, respectively:
 
 - A branch of c.transmogrifier with a setuptools entry point plugin system
   added, and the CMFCore dependencies removed (gracefully, I hope).
