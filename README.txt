@@ -26,6 +26,6 @@ These are, respectively:
 - A branch of c.transmogrifier with a setuptools entry point plugin system
   added, and the CMFCore dependencies removed (gracefully, I hope).
 - A branch of t.filesystem with the collective.transmogrifier entry point
-  specified.
+  specified (and some CMFCore dependencies removed).
 - A fork of t.ploneremote with the collective.transmogrifier entry point
-  specified.
+  specified (and some CMFCore dependencies remove).
