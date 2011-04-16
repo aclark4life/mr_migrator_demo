@@ -50,7 +50,3 @@ object called "Plone" and then:
 You should end up with content in Plone that looks like this:
 
 .. image:: content.png
-   :height: 100
-   :width: 200
-   :scale: 50
-   :alt: Content in Plone
