@@ -49,4 +49,4 @@ object called "Plone" and then:
 
 You should end up with content in Plone that looks like this:
 
-.. image:: content.png
+.. image:: https://github.com/aclark4life/mr_migrator_demo/raw/master/content.png
