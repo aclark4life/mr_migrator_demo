@@ -22,4 +22,4 @@ You can try out this demo::
 
 You should end up with content in Plone that looks like this:
 
-.. image:: https://github.com/aclark4life/mr_migrator_demo/raw/master/content.png
+.. image:: https://github.com/aclark4life/mr_migrator_demo/raw/master/screenshot.png
