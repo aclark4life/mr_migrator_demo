@@ -2,20 +2,16 @@
 Introduction
 ============
 
-This demo is:
-
-* Proof of concept for mr.migrator: A tool that provides the ability to
-  register and execute collective.transmogrifier pipelines without creating a
-  Python package. It's Miller Time™.
+Proof of concept for mr.migrator.
 
 Installation
 ============
 
-You can try out this demo::
+Follow these steps::
 
     $ git clone git@github.com:aclark4life/mr_migrator_demo.git
     $ cd mr_migrator_demo
-    $ python bootstrap.py
+    $ python2.7 bootstrap.py -d
     $ bin/buildout
     $ bin/plone start
     $ bin/migrate
